@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_perseus.mk
+    $(LOCAL_DIR)/aosp_perseus.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_perseus-user \
-    arrow_perseus-userdebug \
-    arrow_perseus-eng
+    aosp_perseus-user \
+    aosp_perseus-userdebug \
+    aosp_perseus-eng

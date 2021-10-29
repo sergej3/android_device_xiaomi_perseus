@@ -42,10 +42,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# SEPolicy
-SELINUX_IGNORE_NEVERALLOWS := true
-include device/qcom/sepolicy_vndr/SEPolicy.mk
-
 # Inherit from the proprietary version
 -include vendor/xiaomi/perseus/BoardConfigVendor.mk
 

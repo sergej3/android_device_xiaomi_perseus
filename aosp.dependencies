@@ -2,9 +2,32 @@
   {
     "repository": "android_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845"
+    "branch": "arrow-11.0"
   },
   {
     "repository": "android_device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common"
+    "branch": "arrow-11.0"
+  },
+  {
+    "repository": "hardware_qcom-caf_sdm845_display",
+    "target_path": "hardware/qcom-caf/sdm845/display"
+    "branch": "eleven"
+  },
+  {
+    "repository": "device_custom_sepolicy",
+    "target_path": "device/custom/sepolicy"
+    "branch": "eleven"
+  },
+  {
+    "repository": "device_qcom_sepolicy",
+    "target_path": "device/qcom/sepolicy"
+    "branch": "eleven"
+  },
+  {
+   "remote": "github",
+   "repository": "ArrowOS/android_hardware_qcom_media",
+   "target_path": "hardware/qcom-caf/sdm845/media",
+   "branch": "arrow-11.0-caf-sdm845"
   }
 ]

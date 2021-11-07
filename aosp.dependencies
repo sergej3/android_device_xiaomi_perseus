@@ -1,26 +1,31 @@
 [
   {
-    "repository": "android_kernel_xiaomi_sdm845",
+    "remote": "github",
+    "repository": "sergej3/android_kernel_xiaomi_sdm845",
     "target_path": "kernel/xiaomi/sdm845"
     "branch": "arrow-11.0"
   },
   {
-    "repository": "android_device_xiaomi_sdm845-common",
+    "remote": "github",
+    "repository": "sergej3/android_device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common"
     "branch": "arrow-11.0"
   },
   {
-    "repository": "hardware_qcom-caf_sdm845_display",
+    "remote": "github",
+    "repository": "sergej3/hardware_qcom-caf_sdm845_display",
     "target_path": "hardware/qcom-caf/sdm845/display"
     "branch": "eleven"
   },
   {
-    "repository": "device_custom_sepolicy",
+    "remote": "github",
+    "repository": "sergej3/device_custom_sepolicy",
     "target_path": "device/custom/sepolicy"
     "branch": "eleven"
   },
   {
-    "repository": "device_qcom_sepolicy",
+    "remote": "github",
+    "repository": "sergej3/device_qcom_sepolicy",
     "target_path": "device/qcom/sepolicy"
     "branch": "eleven"
   },
